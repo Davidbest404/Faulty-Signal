@@ -106,6 +106,58 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,7 +170,7 @@ TextureImporter:
         width: 1024
         height: 768
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -135,12 +187,12 @@ TextureImporter:
       name: My PC
       rect:
         serializedVersion: 2
-        x: 28
-        y: 150
-        width: 31
-        height: 30
+        x: 27
+        y: 149
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -157,12 +209,12 @@ TextureImporter:
       name: Email
       rect:
         serializedVersion: 2
-        x: 67
-        y: 157
-        width: 31
-        height: 16
+        x: 66
+        y: 149
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,12 +231,12 @@ TextureImporter:
       name: Folder
       rect:
         serializedVersion: 2
-        x: 104
-        y: 150
-        width: 31
-        height: 27
+        x: 103
+        y: 147
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,12 +253,12 @@ TextureImporter:
       name: Recycle Bin
       rect:
         serializedVersion: 2
-        x: 144
-        y: 148
-        width: 24
-        height: 29
+        x: 140
+        y: 147
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,7 +280,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,12 +297,12 @@ TextureImporter:
       name: Interface_6
       rect:
         serializedVersion: 2
-        x: 213
+        x: 206
         y: 147
-        width: 17
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,12 +319,12 @@ TextureImporter:
       name: Web
       rect:
         serializedVersion: 2
-        x: 240
+        x: 239
         y: 147
-        width: 31
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interface_8
+      name: Button
       rect:
         serializedVersion: 2
         x: 427
@@ -294,7 +346,7 @@ TextureImporter:
         width: 197
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,12 +363,12 @@ TextureImporter:
       name: File
       rect:
         serializedVersion: 2
-        x: 64
-        y: 117
-        width: 27
-        height: 27
+        x: 61
+        y: 115
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,12 +385,12 @@ TextureImporter:
       name: Filled
       rect:
         serializedVersion: 2
-        x: 99
-        y: 124
-        width: 34
-        height: 22
+        x: 103
+        y: 117
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interface_11
+      name: Button_selected
       rect:
         serializedVersion: 2
         x: 427
@@ -360,7 +412,7 @@ TextureImporter:
         width: 197
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,12 +429,12 @@ TextureImporter:
       name: Empty
       rect:
         serializedVersion: 2
-        x: 104
-        y: 99
-        width: 29
-        height: 22
+        x: 105
+        y: 77
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,7 +448,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interface_13
+      name: Button_pressed
       rect:
         serializedVersion: 2
         x: 427
@@ -404,7 +456,7 @@ TextureImporter:
         width: 197
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,7 +470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White
+      name: 0_White
       rect:
         serializedVersion: 2
         x: 427
@@ -440,7 +492,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DGray
+      name: 0_DGray
       rect:
         serializedVersion: 2
         x: 428
@@ -448,7 +500,7 @@ TextureImporter:
         width: 1
         height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,7 +514,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LGrey
+      name: 0_LGrey
       rect:
         serializedVersion: 2
         x: 428
@@ -470,7 +522,7 @@ TextureImporter:
         width: 1
         height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -484,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black
+      name: 0_Black
       rect:
         serializedVersion: 2
         x: 428
@@ -492,7 +544,7 @@ TextureImporter:
         width: 1
         height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -501,6 +553,72 @@ TextureImporter:
       bones: []
       spriteID: 4ef595afcc865214d8a8c83a400e9d5b
       internalID: -625786379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface_0
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 181
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cf3aaf40c652f4f8b53d527c2ff74e
+      internalID: -942580738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface_1
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805df4dfd6ca9d74295297fe5f122d00
+      internalID: -1718662078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface_2
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 184
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5d070c0c2b9e2478efa34db8337cc4
+      internalID: -1708787073
       vertices: []
       indices: 
       edges: []
@@ -519,8 +637,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Black: -625786379
-      DGray: -575702399
+      0_Black: -625786379
+      0_DGray: -575702399
+      0_LGrey: 2147250745
+      0_White: -177641616
+      Button: -1093690793
+      Button_pressed: -273326599
+      Button_selected: 225986414
       Email: 1532853867
       Empty: 2058202905
       File: -654903871
@@ -528,15 +651,13 @@ TextureImporter:
       Folder: 595945433
       Gear: 226507242
       Interface: -508247747
-      Interface_11: 225986414
-      Interface_13: -273326599
+      Interface_0: -942580738
+      Interface_1: -1718662078
+      Interface_2: -1708787073
       Interface_6: -2058150317
-      Interface_8: -1093690793
-      LGrey: 2147250745
       My PC: -1828787185
       Recycle Bin: -2042823065
       Web: -1132710035
-      White: -177641616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

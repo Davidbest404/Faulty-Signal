@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 2_Warning!
+  m_EditorClassIdentifier: 
+  emailId: 2
+  senderName: ' Gleb'
+  senderEmail: ' glebonimus228@gmail.sry'
+  subject: ' Warning!'
+  bodyText: "They saw what happened. It's already among us. With each signal, they
+    want your silence more and more.\r\n\r\nWarning:\r\nThey sent another one. Don't
+    let him open your window.\r"
+  receivedTime: 5
+  isRead: 1
