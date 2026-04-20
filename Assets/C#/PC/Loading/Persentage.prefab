@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8678152622470039201}
   - component: {fileID: 1352301349006562079}
   - component: {fileID: 1143525680660928344}
+  - component: {fileID: 2998322371104960702}
   m_Layer: 5
   m_Name: Persentage
   m_TagString: Untagged
@@ -65,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -531002459, guid: e47659fa1157d194d859996069c7211b, type: 3}
+  m_Sprite: {fileID: -654903871, guid: d378c64b4a64a1b44a90d61b476cd68e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -75,3 +76,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2998322371104960702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3552908451665866798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb01b00c8ca67b4bb0f4508daf1dd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotate: 0
+  rotateSpeed: 90
+  bounce: 1
+  bounceHeight: 10
+  bounceSpeed: 2

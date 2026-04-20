@@ -126,7 +126,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _VertJitter: 0.95
+    - _VertJitter: 0.965
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:

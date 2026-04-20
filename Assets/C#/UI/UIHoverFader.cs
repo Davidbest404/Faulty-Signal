@@ -26,22 +26,23 @@ public class UIHoverFader : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     [Tooltip("Начинать с прозрачным объектом?")]
     [SerializeField] private bool startHidden = true;
 
-    // Текущая прозрачность
+    [Header("Force Settings")]
+    [Tooltip("Принудительно отключить (игнорировать наведение)")]
+    [SerializeField] private bool forceDisabled = false;
+
     private float currentAlpha;
-    // Целевая прозрачность
     private float targetAlpha;
-    // Кэш CanvasRenderer для производительности
     private CanvasRenderer canvasRenderer;
+    private bool isHovered = false;
 
     private void Awake()
     {
-        // Если целевой объект не указан - используем текущий
         if (targetGraphic == null)
             targetGraphic = GetComponent<Graphic>();
 
         if (targetGraphic == null)
         {
-            Debug.LogError($"UIHoverFader: На объекте {gameObject.name} нет Graphic компонента (Image/Text/RawImage)!");
+            Debug.LogError($"UIHoverFader: На объекте {gameObject.name} нет Graphic компонента!");
             enabled = false;
             return;
         }
@@ -51,7 +52,6 @@ public class UIHoverFader : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void Start()
     {
-        // Устанавливаем начальное состояние
         if (startHidden)
         {
             currentAlpha = alphaHidden;
@@ -68,23 +68,31 @@ public class UIHoverFader : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void Update()
     {
-        // Плавно меняем текущую прозрачность к целевой
+        if (forceDisabled) return;
+
+        // Обновляем целевую прозрачность в зависимости от состояния наведения
+        if (isHovered)
+            targetAlpha = alphaVisible;
+        else
+            targetAlpha = alphaHidden;
+
         float speed = (targetAlpha > currentAlpha) ? fadeInSpeed : fadeOutSpeed;
         currentAlpha = Mathf.MoveTowards(currentAlpha, targetAlpha, speed * Time.deltaTime);
 
-        // Применяем прозрачность
         if (Mathf.Abs(currentAlpha - targetAlpha) > 0.01f)
             ApplyAlpha(currentAlpha);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        targetAlpha = alphaVisible;
+        if (forceDisabled) return;
+        isHovered = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        targetAlpha = alphaHidden;
+        if (forceDisabled) return;
+        isHovered = false;
     }
 
     private void ApplyAlpha(float alpha)
@@ -94,15 +102,19 @@ public class UIHoverFader : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         targetGraphic.color = color;
     }
 
-    // Публичные методы для вызова из других скриптов (опционально)
+    // Публичные методы
     public void Show()
     {
+        if (forceDisabled) return;
         targetAlpha = alphaVisible;
+        isHovered = true;
     }
 
     public void Hide()
     {
+        if (forceDisabled) return;
         targetAlpha = alphaHidden;
+        isHovered = false;
     }
 
     public void SetAlphaImmediate(float alpha)
@@ -110,5 +122,18 @@ public class UIHoverFader : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         currentAlpha = alpha;
         targetAlpha = alpha;
         ApplyAlpha(alpha);
+    }
+
+    public void SetForceDisabled(bool disabled)
+    {
+        forceDisabled = disabled;
+        if (disabled)
+        {
+            SetAlphaImmediate(0f);
+        }
+        else
+        {
+            SetAlphaImmediate(alphaHidden);
+        }
     }
 }
