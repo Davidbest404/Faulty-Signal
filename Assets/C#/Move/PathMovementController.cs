@@ -161,7 +161,21 @@ public class PathMovementController : MonoBehaviour
 
         if (targetNode != null)
         {
+            // Вызываем событие ВЫХОДА из старой точки
+            if (currentNode != null)
+            {
+                currentNode.TriggerExitActions();
+            }
+
+            // Устанавливаем новую точку
             SetCurrentNode(targetNode);
+
+            // Вызываем событие ВХОДА в новую точку
+            if (currentNode != null)
+            {
+                currentNode.TriggerEnterActions();
+            }
+
             OnNodeReached?.Invoke(currentNode);
         }
 
@@ -236,6 +250,22 @@ public class PathMovementController : MonoBehaviour
 
         OnPathStarted?.Invoke(currentPath.pathId);
 
+        Debug.Log($"Запущен путь: {currentPath.pathName} (ID: {currentPath.pathId})");
+
+        // Вызываем событие ВЫХОДА из текущей точки (перед началом движения)
+        if (currentNode != null)
+        {
+            currentNode.TriggerExitActions();
+        }
+
+        currentPath = path;
+        currentPointIndex = 0;
+        isMoving = true;
+
+        if (currentNode != null)
+            currentNode.HideAllArrows();
+
+        OnPathStarted?.Invoke(currentPath.pathId);
         Debug.Log($"Запущен путь: {currentPath.pathName} (ID: {currentPath.pathId})");
     }
 
