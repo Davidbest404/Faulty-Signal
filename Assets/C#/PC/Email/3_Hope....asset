@@ -18,5 +18,5 @@ MonoBehaviour:
   subject: ' Hope...'
   bodyText: "Only if help comes to us from outer space can we stop them. Don't stop,
     there's not much left.\r\n\r\nWarning:\r\nThey are angry.\r"
-  receivedTime: 15
+  receivedTime: 30
   isRead: 1

@@ -17,5 +17,5 @@ MonoBehaviour:
   senderEmail: ' glebonimus228@gmail.sry'
   subject: ' Truth'
   bodyText: "You have all the data. Let people know the truth.\r"
-  receivedTime: 30
+  receivedTime: 45
   isRead: 1

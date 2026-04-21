@@ -19,5 +19,5 @@ MonoBehaviour:
   bodyText: "They saw what happened. It's already among us. With each signal, they
     want your silence more and more.\r\n\r\nWarning:\r\nThey sent another one. Don't
     let him open your window.\r"
-  receivedTime: 5
+  receivedTime: 15
   isRead: 1
