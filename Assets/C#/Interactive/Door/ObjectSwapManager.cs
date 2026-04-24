@@ -36,6 +36,7 @@ public class ObjectSwapManager : MonoBehaviour
     [Header("Настройки звука")]
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip swapSound;
+    [SerializeField] private AudioClip doorSound;
     [SerializeField] private float soundVolume = 1f;
 
     [Header("Настройки замен")]
@@ -62,6 +63,9 @@ public class ObjectSwapManager : MonoBehaviour
             audioSource = GetComponent<AudioSource>();
 
         if (audioSource == null && swapSound != null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+
+        if (audioSource == null && doorSound != null)
             audioSource = gameObject.AddComponent<AudioSource>();
     }
 
@@ -116,7 +120,7 @@ public class ObjectSwapManager : MonoBehaviour
             Log("Волна замен уже активна, пропускаем");
             yield break;
         }
-
+        PlayDoorSound();
         isSwapWaveActive = true;
         Log($"=== НАЧАЛСЯ РАУНД ЗАМЕН #{waveNumber} ===");
 
@@ -425,6 +429,14 @@ public class ObjectSwapManager : MonoBehaviour
         if (audioSource != null && swapSound != null)
         {
             audioSource.PlayOneShot(swapSound, soundVolume);
+        }
+    }
+
+    void PlayDoorSound()
+    {
+        if (audioSource != null && doorSound != null)
+        {
+            audioSource.PlayOneShot(doorSound, soundVolume);
         }
     }
 

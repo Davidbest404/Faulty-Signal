@@ -189,11 +189,7 @@ public class ClickToSwap : MonoBehaviour
         Vector3 scale = currentObject.transform.localScale;
         Transform parent = currentObject.transform.parent;
 
-        // Активируем новый объект
-        targetObject.transform.position = position;
-        targetObject.transform.rotation = rotation;
-        targetObject.transform.localScale = scale;
-        targetObject.transform.parent = parent;
+        // Активируем объект
         targetObject.SetActive(true);
 
         // Копируем компонент ClickToSwap на новый объект если его там нет
