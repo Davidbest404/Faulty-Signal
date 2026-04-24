@@ -55,8 +55,8 @@ public class MonitorGameWindow : MonoBehaviour
             pathfinderGame.StartGame();
 
         // Отключаем курсор во время игры
-        if (monitorCursor != null)
-            monitorCursor.SetCursorActive(false);
+        //if (monitorCursor != null)
+        //    monitorCursor.SetCursorActive(false);
 
         Debug.Log("Окно игры открыто");
     }
