@@ -31,6 +31,7 @@ public class WindowMan : MonoBehaviour
     [Header("Звуки")]
     [Tooltip("Звук появления (zvuki-shagi_uZ54dyh0).")]
     [SerializeField] private AudioClip appearanceSound;
+    [SerializeField] private AudioClip goneSound;
     private AudioSource audioSource;
 
     [Header("Вызов методов")]
@@ -95,6 +96,7 @@ public class WindowMan : MonoBehaviour
 
             if (curtainClosedTimer >= curtainDefeatDelay)
             {
+                audioSource.PlayOneShot(goneSound);
                 Defeat();
                 return;
             }

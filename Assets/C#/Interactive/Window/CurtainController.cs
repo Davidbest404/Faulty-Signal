@@ -52,10 +52,10 @@ public class CurtainController : MonoBehaviour
     private void Update()
     {
         // Нажатие F для переключения
-        if (Input.GetKeyDown(toggleKey))
-        {
-            ToggleCurtain();
-        }
+        //if (Input.GetKeyDown(toggleKey))
+        //{
+        //    ToggleCurtain();
+        //}
 
         if (curtainMesh == null) return;
 
