@@ -139,8 +139,8 @@ public class MonitorCursor : MonoBehaviour
         if (active)
         {
             // ѕри активации курсора скрываем системный
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Confined;
+            //Cursor.visible = false;
+            //Cursor.lockState = CursorLockMode.Confined;
         }
         else
         {
