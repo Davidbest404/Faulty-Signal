@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 9_YOU HAVE WON
+  m_EditorClassIdentifier: 
+  emailId: 9
+  senderName: Prize Patrol
+  senderEmail: prizepatrol@geocities.com
+  subject: 'YOU HAVE WON!!! SONY PLAYSTATION INSIDE Message:'
+  bodyText: "CONGRATULATIONS!!!\r\n\r\nYOUR EMAIL ADDRESS WAS SELECTED AS A WINNER
+    IN OUR ONLINE SWEEPSTAKES.\r\n\r\nYOU HAVE WON:\r\n\u2713 1 SONY PLAYSTATION
+    CONSOLE\r\n\u2713 3 GAMES (FINAL FANTASY VII, MORTAL KOMBAT, CRASH BANDICOOT)\r\n\u2713
+    $500 CASH\r\n\r\nTO CLAIM YOUR PRIZE, PLEASE SEND $14.95 FOR SHIPPING AND HANDLING
+    TO:\r\n\r\nPRIZE PATROL\r\nPO BOX 888\r\nTULSA, OK 74101\r\n\r\nHURRY! THIS OFFER
+    EXPIRES IN 10 DAYS.\r\n\r\nYOUR PRIZE AWAITS.\r\nAMERICA ONLINE SWEEPSTAKES DEPT."
+  receivedTime: 225
+  isRead: 1

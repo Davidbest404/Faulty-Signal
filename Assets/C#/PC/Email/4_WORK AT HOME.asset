@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 4_WORK AT HOME
+  m_EditorClassIdentifier: 
+  emailId: 4
+  senderName: Barbara Thompson
+  senderEmail: bthompson@prodigy.net
+  subject: WORK AT HOME - EARN $2000/WEEK
+  bodyText: 'HELLO,
+
+
+
+    HAVE YOU EVER WANTED TO WORK FROM HOME IN YOUR PAJAMAS?
+    NOW YOU CAN!!!
+
+
+
+    OUR COMPANY NEEDS PEOPLE TO STUFF ENVELOPES. NO EXPERIENCE
+    NEEDED. YOU WILL RECEIVE ENVELOPES AND FLYERS IN THE MAIL. STUFF THEM AND SEND
+    THEM OUT. WE PAY YOU $2 PER ENVELOPE.
+
+
+
+    IF YOU STUFF 1000 ENVELOPES, THAT
+    IS $2000!!! EASY MONEY.
+
+
+
+    SEND $29.95 FOR A START-UP KIT (INSTRUCTIONS AND
+    SUPPLIES) TO:
+
+
+
+    BARBARA THOMPSON
+
+    PO BOX 492
+
+    DES MOINES, IA 50301
+
+
+
+    THIS
+    IS NOT A JOKE. MY KIDS ARE TYPING THIS RIGHT NOW. GOD BLESS.'
+  receivedTime: 40
+  isRead: 1

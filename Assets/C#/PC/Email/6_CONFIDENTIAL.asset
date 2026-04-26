@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 6_CONFIDENTIAL
+  m_EditorClassIdentifier: 
+  emailId: 6
+  senderName: Prince Adebayo Okonkwo
+  senderEmail: princeokonkwo@compuserve.com
+  subject: 'CONFIDENTIAL - TRANSFER OF $25,000,000 Message:'
+  bodyText: 'DEAR AMERICAN FRIEND,
+
+    
+
+    I AM PRINCE ADEBAYO OKONKWO OF NIGERIA.
+    MY FATHER THE KING DIED SUDDENLY AND LEFT $25 MILLION US DOLLARS IN A SECRET
+    BANK ACCOUNT.
+
+    
+
+    I NEED YOUR HELP TO TRANSFER THIS MONEY TO THE UNITED
+    STATES. YOU WILL RECEIVE 30% ($7.5 MILLION) FOR ALLOWING US TO USE YOUR BANK
+    ACCOUNT.
+
+    
+
+    PLEASE SEND ME:
+
+    - YOUR FULL NAME
+
+    - YOUR BANK
+    ACCOUNT NUMBER
+
+    - YOUR SOCIAL SECURITY NUMBER
+
+    - YOUR MOTHER''S MAIDEN
+    NAME
+
+    
+
+    THIS IS 100% LEGAL. REPLY IMMEDIATELY. TIME IS VERY IMPORTANT.
+
+    
+
+    YOUR
+    FRIEND,
+
+    PRINCE ADEBAYO OKONKWO
+
+    P.S. BLESSINGS FROM NIGERIA'
+  receivedTime: 100
+  isRead: 1

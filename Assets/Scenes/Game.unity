@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -320,7 +320,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &1283333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2278,7 +2277,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: 643831f18eef9d74e80589bc83e37db0, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &225391474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8498,7 +8496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -8650,7 +8648,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &272934803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8744,7 +8741,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: 643831f18eef9d74e80589bc83e37db0, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &275408972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15698,7 +15694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -15776,7 +15772,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &542705088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17791,7 +17786,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Not interacting, for now
+  m_text: Press on Red ones
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9204e99333913f54fa2595ee6f20472e, type: 2}
   m_sharedMaterial: {fileID: -4394383996875780191, guid: 9204e99333913f54fa2595ee6f20472e, type: 2}
@@ -17800,8 +17795,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17818,7 +17813,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50.15
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18035,7 +18030,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: 643831f18eef9d74e80589bc83e37db0, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &706952717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23711,6 +23705,7 @@ MonoBehaviour:
   bruhhAnimator: {fileID: 720197095}
   windowAnimator: {fileID: 1457315434}
   appearanceSound: {fileID: 8300000, guid: 84da9a2065a494c42825156b926546df, type: 3}
+  goneSound: {fileID: 8300000, guid: 3fc8c27dbc8e7ba4aa837f34eb6c8e86, type: 3}
   methodsToCall:
     m_PersistentCalls:
       m_Calls:
@@ -23775,7 +23770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &721809152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23847,8 +23842,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721809151}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -5.4}
-  m_LocalScale: {x: 0.025, y: 0.025, z: 0.025}
+  m_LocalPosition: {x: 0, y: 0, z: -9.2}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 705054658}
@@ -23856,7 +23851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -26.79, y: 19.56}
+  m_AnchoredPosition: {x: -26.79, y: 19.83}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &722404451
@@ -23983,7 +23978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -24061,7 +24056,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &748366440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24316,7 +24310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -24394,7 +24388,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &784416702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25083,7 +25076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -25235,7 +25228,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &888395964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25556,7 +25548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -25708,7 +25700,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &987293209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27210,7 +27201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -27288,7 +27279,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &1188953709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27381,9 +27371,15 @@ MonoBehaviour:
   emptyStateText: {fileID: 655766971}
   allEmails:
   - {fileID: 11400000, guid: 8c63dcf82a319c34e88659ecf2081a96, type: 2}
+  - {fileID: 11400000, guid: 5da4ee0052a023746af74db9fa0ebf32, type: 2}
   - {fileID: 11400000, guid: d9be3652cd3651843bf708937d9517c9, type: 2}
+  - {fileID: 11400000, guid: 92e689b4ac87b3d4ebb341cc6ae6091b, type: 2}
   - {fileID: 11400000, guid: b17a3900c448f5e4995d5818737212d1, type: 2}
+  - {fileID: 11400000, guid: c764120fa1aaa84418f89b14b781f47d, type: 2}
   - {fileID: 11400000, guid: eef796446628a01429f7cd6529f9afba, type: 2}
+  - {fileID: 11400000, guid: 32e21c387285ef24e82f09450cff321e, type: 2}
+  - {fileID: 11400000, guid: 2285446335849734fb1c815d8922d00b, type: 2}
+  - {fileID: 11400000, guid: 824d3991f76521c4f8a223a37786d35f, type: 2}
   readBackgroundSprite: {fileID: -980844049, guid: 07cee3fd403b44d42a2724d89ca80f71, type: 3}
   readIconSprite: {fileID: -1800429590, guid: 07cee3fd403b44d42a2724d89ca80f71, type: 3}
   readTextColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
@@ -28868,7 +28864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -28946,7 +28942,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &1328293732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32024,7 +32019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -32102,7 +32097,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &1824631216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32272,7 +32266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -32424,7 +32418,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &1839917940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32666,7 +32659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 3
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 10
   precomputeOutline: 1
@@ -32818,7 +32811,6 @@ MonoBehaviour:
   swapSound: {fileID: 8300000, guid: b025370506fb6a947a7ce0eca08a73df, type: 3}
   revertSound: {fileID: 0}
   soundVolume: 1
-  hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &1845078206
 MonoBehaviour:
   m_ObjectHideFlags: 0

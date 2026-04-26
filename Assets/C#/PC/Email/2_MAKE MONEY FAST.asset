@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 2_MAKE MONEY FAST
+  m_EditorClassIdentifier: 
+  emailId: 2
+  senderName: Bill Jenkins
+  senderEmail: bjenkins@aol.com
+  subject: $$$ MAKE MONEY FAST $$$ - SERIOUS REPLY ONLY
+  bodyText: 'DEAR INTERNET FRIEND,
+
+    
+
+    THIS IS NOT A SCAM. I MADE $47,000
+    IN 3 WEEKS USING THIS SYSTEM.
+
+    
+
+    HERE IS HOW IT WORKS:
+
+    1. SEND
+    $10 TO THE NAME AT THE TOP OF THE LIST
+
+    2. MOVE THE NAMES DOWN AND ADD YOUR
+    NAME AT THE BOTTOM
+
+    3. POST THIS MESSAGE TO 200 NEWSGROUPS OR EMAIL LISTS
+
+    
+
+    IN
+    2 WEEKS YOU WILL HAVE OVER $80,000 IN CASH. PEOPLE LAUGH BUT THEN THEY CASH THE
+    CHECKS.
+
+    
+
+    SEND $10 CASH OR MONEY ORDER TO:
+
+    JOHN PETERSON
+
+    1420
+    OAK STREET
+
+    CHICAGO, IL 60614
+
+    
+
+    DO NOT BREAK THE CHAIN. GOOD
+    LUCK!!!
+
+    
+
+    BILL JENKINS
+
+    AOL USER: BJENKINS
+
+
+
+    Best regards,
+
+    Dr.
+    James O''Connor'
+  receivedTime: 10
+  isRead: 1

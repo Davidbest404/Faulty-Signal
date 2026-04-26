@@ -19,9 +19,6 @@ public class ClickToSwap : MonoBehaviour
     [SerializeField] private AudioClip revertSound;
     [SerializeField] private float soundVolume = 1f;
 
-    [Header("¬изуальный эффект")]
-    [SerializeField] private Color hoverColor = Color.yellow;   // ÷вет при наведении
-
     private GameObject originalObject;
     private GameObject currentObject;
     private bool hasBeenSwapped = false;
@@ -294,7 +291,6 @@ public class ClickToSwap : MonoBehaviour
         target.swapSound = this.swapSound;
         target.revertSound = this.revertSound;
         target.soundVolume = this.soundVolume;
-        target.hoverColor = this.hoverColor;
     }
 
     void HighlightObject(bool highlight)
@@ -305,7 +301,6 @@ public class ClickToSwap : MonoBehaviour
             {
                 originalMaterial = objectRenderer.material;
                 originalColor = objectRenderer.material.color;
-                objectRenderer.material.color = hoverColor;
             }
             else
             {

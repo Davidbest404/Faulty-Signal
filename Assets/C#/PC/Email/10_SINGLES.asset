@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 10_SINGLES
+  m_EditorClassIdentifier: 
+  emailId: 10
+  senderName: Party Line Central
+  senderEmail: partyline@hotmail.com
+  subject: SINGLES IN YOUR AREA WANT TO MEET YOU!!!
+  bodyText: 'HELLO THERE,
+
+    
+
+    ARE YOU LONELY? BORED? SITTING IN YOUR BASEMENT
+    IN YOUR UNDERWEAR?
+
+    
+
+    CALL THIS NUMBER RIGHT NOW TO TALK WITH HOT SINGLES
+    IN YOUR AREA:
+
+    
+
+    1-900-555-4242
+
+    
+
+    COST: $4.99 FOR THE FIRST
+    MINUTE, $2.99 PER MINUTE AFTER.
+
+    
+
+    LADIES ARE WAITING BY THE PHONE.
+    DO NOT BE SHY. MY WIFE MET HER BOYFRIEND USING THIS LINE. IT WORKS.
+
+    
+
+    CALL
+    NOW. YOU WILL NOT REGRET IT.
+
+    
+
+    NO CREDIT CARD NEEDED. BILLED TO YOUR
+    HOME PHONE. YOUR PARENTS WILL NEVER KNOW.
+
+    
+
+    XXX PARTY LINE'
+  receivedTime: 300
+  isRead: 1

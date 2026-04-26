@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089a0573dabbef6418c83c23a0a29e41, type: 3}
+  m_Name: 9_HOT STOCK TIP
+  m_EditorClassIdentifier: 
+  emailId: 9
+  senderName: '"Fast Eddie" Marino'
+  senderEmail: fasteddie@worldnet.att.net
+  subject: HOT STOCK TIP - DOUBLE YOUR MONEY IN 3 DAYS
+  bodyText: 'HEY BUDDY,
+
+    
+
+    LISTEN TO ME. I HAVE A HOT TIP ON A PENNY STOCK
+    THAT IS ABOUT TO EXPLODE.
+
+    
+
+    TICKER: XNET
+
+    CURRENT PRICE: $0.12
+
+    TARGET
+    PRICE: $2.50
+
+    
+
+    THIS COMPANY IS DEVELOPING A NEW THING CALLED "THE
+    WORLD WIDE WEB BROWSER." TRUST ME. IT IS THE FUTURE. I AM A FORMER WALL STREET
+    GUY. I KNOW THINGS.
+
+    
+
+    CALL MY TRADING HOTLINE: 1-900-555-7839 ($2.99/MINUTE)
+
+    
+
+    DON''T
+    BE POOR FOREVER.
+
+    
+
+    FAST EDDIE
+
+    P.S. MY PAGER NUMBER IS 555-0192'
+  receivedTime: 200
+  isRead: 1
