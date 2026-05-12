@@ -20,6 +20,7 @@ public class ObjectSwapManager : MonoBehaviour
     }
 
     [Header("Временные настройки")]
+    [SerializeField] private float startTimeBeforeWave = 10f;
     [SerializeField] private float minTimeBeforeSwapWave = 10f;
     [SerializeField] private float maxTimeBeforeSwapWave = 30f;
 
@@ -53,6 +54,21 @@ public class ObjectSwapManager : MonoBehaviour
 
     void Start()
     {
+        StartCoroutine(PauseRoutine(startTimeBeforeWave));
+    }
+
+    // Корутина, реализующая паузу
+    private IEnumerator PauseRoutine(float pauseTime)
+    {
+        // Логика до паузы
+        Debug.Log("Логика остановлена. Пауза началась.");
+
+        // Пауза на выбранное время
+        yield return new WaitForSeconds(pauseTime);
+
+        // Логика после паузы
+        Debug.Log("Пауза закончилась. Логика продолжается.");
+
         InitializeAudioSource();
         StartCoroutine(SwapWaveScheduler());
     }

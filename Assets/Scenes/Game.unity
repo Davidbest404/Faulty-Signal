@@ -16351,7 +16351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86452853e06114428ee91aee9396ece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTimeBeforeSwapWave: 60
+  startTimeBeforeWave: 60
+  minTimeBeforeSwapWave: 30
   maxTimeBeforeSwapWave: 240
   useRandomDelayBetweenSwaps: 1
   minDelayBetweenSwaps: 4
@@ -16854,7 +16855,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86452853e06114428ee91aee9396ece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTimeBeforeSwapWave: 60
+  startTimeBeforeWave: 10
+  minTimeBeforeSwapWave: 30
   maxTimeBeforeSwapWave: 120
   useRandomDelayBetweenSwaps: 1
   minDelayBetweenSwaps: 7
@@ -28002,7 +28004,7 @@ PrefabInstance:
     - target: {fileID: 2927593092117553206, guid: 18f4534dfddd04f448f5a83cd4ae5d5c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d55a791db073a1d48aaf6a227bfb55b1, type: 2}
+      objectReference: {fileID: 2100000, guid: c60dcc66b5585d84193ae7bf4fb7daee, type: 2}
     - target: {fileID: 4059279300811166479, guid: 18f4534dfddd04f448f5a83cd4ae5d5c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
